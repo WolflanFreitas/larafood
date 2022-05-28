@@ -24,8 +24,8 @@
                     @foreach ($plans as $plan)
                         <tr>
                             <td>{{$plan->name}}</td>
-                            <td>{{$plan->price}}</td>
-                            <td></td>
+                            <td>R$ {{number_format($plan->price,2,',','.')}}</td>
+                            <td style="width: 50px"><a class="btn btn-warning" href="#">a</a></td>
                         </tr>
                     @endforeach
                 </tbody>

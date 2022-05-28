@@ -236,8 +236,9 @@ return [
             'text' => 'search',
         ],
         [
-            'text' => 'blog',
+            'text' => 'Planos',
             'route'  => 'plans.index',
+            'icon' => 'fas fa-solid fa-bold'
         ]
     ],
 
